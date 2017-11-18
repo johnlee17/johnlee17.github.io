@@ -74,7 +74,7 @@
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="Markdown," />
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Markdown介绍"/>
 <meta name="twitter:description" content="Markdown介绍"/>
 
@@ -105,6 +105,10 @@
         <li class="mobile-menu-item">主页</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">档案室</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">目录</li>
       </a>
   </ul>
 </nav>
@@ -120,6 +124,10 @@
         <a class="menu-item-link" href="/">主页</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">档案室</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">目录</a>
       </li>
   </ul>
 </nav>
@@ -135,7 +143,11 @@
 
       <div class="post-meta">
         <span class="post-time"> 2017-11-16 </span>
-        
+        <div class="post-category">
+            
+              <a href="/categories/%E5%85%B6%E4%BB%96/"> 其他 </a>
+            
+          </div>
         
       </div>
     </header>
@@ -282,10 +294,12 @@ H6: ###### 六级标题
 
 <p>生成</p>
 
+<blockquote>
 <ul>
 <li>one</li>
 <li>two</li>
 </ul>
+</blockquote>
 
 <p>有序列表使用数字加英文点号标记：</p>
 
@@ -293,10 +307,12 @@ H6: ###### 六级标题
 2. two
 </code></pre>
 
+<blockquote>
 <ol>
 <li>one</li>
 <li>two</li>
 </ol>
+</blockquote>
 
 <h1 id="代码区块">代码区块</h1>
 
@@ -309,7 +325,9 @@ H6: ###### 六级标题
 
 <p>可以用三个以上 <code>*</code> 号来建立一个分割线</p>
 
+<blockquote>
 <hr />
+</blockquote>
 
 <h1 id="链接">链接</h1>
 
@@ -318,13 +336,17 @@ H6: ###### 六级标题
 <pre><code>这是一个 [url](http://example.com/ &quot;Title&quot;) 行内链接
 </code></pre>
 
+<blockquote>
 <p>这是一个 <a href="http://example.com/" title="Title">url</a> 行内链接</p>
+</blockquote>
 
 <pre><code>这是一个[example][id]参考式链接
 [id]: http://example.com/
 </code></pre>
 
+<blockquote>
 <p>这是一个<a href="http://example.com/" title="Title">url</a>参考式链接</p>
+</blockquote>
 
 <h1 id="图片">图片</h1>
 
@@ -390,7 +412,11 @@ H6: ###### 六级标题
     
 
     <footer class="post-footer">
-      
+      <div class="post-tags">
+          
+          <a href="/tags/markdown/">Markdown</a>
+          
+        </div>
 
       
       <nav class="post-nav">

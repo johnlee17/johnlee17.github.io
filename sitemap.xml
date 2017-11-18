@@ -23,6 +23,13 @@
   </url>
   
   <url>
+    <loc>https://johnlee17.github.io/tags/markdown/</loc>
+    <lastmod>2017-11-16T14:28:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://johnlee17.github.io/post/</loc>
     <lastmod>2017-11-16T14:28:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,6 +38,14 @@
   
   <url>
     <loc>https://johnlee17.github.io/tags/</loc>
+    <lastmod>2017-11-16T14:28:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://johnlee17.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2017-11-16T14:28:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
